@@ -1,0 +1,736 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    color: #999999;
+    background: #1f1f1f;
+    line-height: 1.7;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+body .body-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: #202120c8; 
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+/* left sidebar */
+.left_side_bar{
+    width: 300px;
+    height: 75vh;
+    text-align: center;
+    background-color: rgba(31, 29, 29, 0.049);
+    position: fixed;
+    margin-left: 20px;
+    margin-top: -20px;
+    border-radius:  20px;
+    border: 2px solid transparent;
+    border-color: aliceblue;
+    border-width: 8px;
+    border-style: double;
+    padding: 20px;
+    padding-bottom: 40px;
+    color: white;
+    
+}
+
+/* left sidebar content //////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#logo_and_name{
+    /* background-color: #999999; */
+    width: 100%;
+    height: 100px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_and_name img{
+    width: 50%;
+    min-height: 50%;
+}
+
+#name{
+    color: #f0e7e7;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+#name h3{
+    margin-top: -10px;
+    font-weight: bolder;
+   
+}
+
+#name h2{
+    margin-bottom: -20px;
+    font-size: 35px;
+}
+
+#myPicture img{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.contact{
+    margin-top: 20px;
+    color: #f0e7e7;
+}
+
+#icons div{
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+
+#icons div img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+#contact_icons{
+    margin-left: 30px;
+}
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgb(216, 68, 14);
+    display: flex;
+    flex-direction: row;
+    color: #f0e7e7;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+button img{
+    width: 45px;
+    height: 45px;
+    /* float: left; */
+} 
+ 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ;;;;;;;;;;;;; right_sidebar begins;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+.right_sidebar section{
+    width: 800px;
+    height: 50vh;
+    background-color: rgba(60, 57, 57, 0.842);
+    margin-left: 450px;
+    margin-right: 450;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+/* section1 starts */
+.right_sidebar .section1{
+    /* padding-top: 10px; */
+    padding-bottom: 180px;
+    margin-top: -20px;
+    height: 65vh;
+}
+
+.section1 .db{
+    margin-bottom: 55px;
+    color: white; 
+}
+
+.section1 .db p{
+    font-size: 50%;
+    border: 1.1px solid transparent;
+    border-color:  rgb(216, 68, 14);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+
+}
+.section1 div{
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section1 div span{
+    color: rgb(216, 68, 14);
+    font-weight: 1000;
+    font-size: 48px;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+      
+}
+
+.section1 div p{
+    font-size: 18px;
+    margin-top: 60px;
+    text-align: left;
+}
+/* section1 ends */
+
+
+/* section2 starts */
+.right_sidebar .section2{
+    height: 60vh;
+}
+.section2 .div1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;  
+}
+
+.section2 .div1 div{
+    margin-top: 150px;
+    color: white;
+}
+
+.section2 .div1 .m{
+    margin-right: 70px;
+    margin-left: 90px;
+}
+
+.section2 .div1 h3{
+font-size: 100px;
+color: rgb(216, 68, 14);
+
+}
+
+.section2 .div1 div p{
+    margin-top: -25px;
+}
+/* section2 ends */
+
+
+/* section3 starts */
+.right_sidebar .section3{
+    height: 65vh;
+    color: white;
+    padding-top: 5%;
+}
+
+.section3 .db{
+    margin-bottom: 30px;
+    color: white; 
+}
+
+.section3 .db p{
+    font-size: 100%;
+    border: 1.1px solid transparent;
+    border-color:  rgb(216, 68, 14);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+    width: 80px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+}
+
+
+.section3 div h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.section3 div p{
+    font-size: 18px;
+    margin-top: 60px;
+    text-align: left;
+    width: 620px;
+    margin-top: 2px;
+}
+/* section3 ends */
+
+
+
+/* section4 starts */
+
+.right_sidebar .section4{
+    height: 230vh;
+}
+
+.section4 .db{
+    margin-bottom: 30px;
+    color: white; 
+}
+
+.section4 .db p{
+    font-size: 100%;
+    border: 1.1px solid transparent;
+    border-color:  rgb(216, 68, 14);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+    width: 80px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+}
+
+
+.section4 #div1{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section4 #div1 span{
+    color: rgb(216, 68, 14);
+}
+
+.section4 #div2{
+    width: 90%;
+    height: 25vh;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    border-width: 8px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.689);
+    margin-bottom: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section4 #div2 .div3{
+    width: 70%;
+    /* background-color: bisque; */
+    color: white;
+}
+
+.section4 #div2 .div3 .a{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section4 #div2 .div3 .b{
+    font-size: 15px;
+}
+.section4 #div2 .div3 p{
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.section4 #div2 .div4{
+    width: 30%;
+    /* background-color: aqua; */
+}
+
+.section4 #div2 .div4 div{
+    background-color: rgb(216, 68, 14);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    float: right;
+    text-align: center;
+}
+
+.section4 #div2 .div4 img{
+    height: 70px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+/* section4 ends */
+
+
+/* section5 starts */
+
+.right_sidebar .section5{
+    height: 180vh;
+}
+.section5 .db{
+    margin-bottom: 30px;
+    color: white; 
+}
+
+.section5 .db p{
+    font-size: 100%;
+    border: 1.1px solid transparent;
+    border-color:  rgb(216, 68, 14);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+    width: 80px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+}
+
+.section5 #div1{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section5 #div1 span{
+    color: rgb(216, 68, 14);
+}
+
+.section5 .div2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 140vh;
+    /* background-color: #999999; */
+
+}
+
+.section5 #div2{
+    width: 200px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section5 #div2 h4{
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.section5 #div3{
+    width: 100px;
+    height: 160px;
+    border: 2px solid white;
+    border-width: 8px;
+    border-style: double;
+    border-radius: 80px;
+    text-align: center;
+    padding: 30px;
+}
+
+.section5 #div3 img{
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+
+.section5 #div3 h4{
+    font-size: 35px;
+    margin: 0px;
+    color: rgb(216, 68, 14);
+}
+/* section5 ends */
+
+/* section6 starts */
+
+.right_sidebar .section6{
+    height: 820vh;
+}
+.section6 .db{
+    margin-bottom: 30px;
+    color: white; 
+}
+
+.section6 .db p{
+    font-size: 100%;
+    border: 1.1px solid transparent;
+    border-color:  rgb(216, 68, 14);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+    width: 80px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+}
+
+.section6 #div1{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section6 #div1 span{
+    color: rgb(216, 68, 14);
+}
+
+.section6 .div1{
+    width: 100%;
+    height: 55vh;
+    border: 2px solid transparent;
+    border-width: 8px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: rgb(216, 68, 14);
+    background-size: cover;
+    margin-bottom: 350px;
+}
+
+.section6 .div2{
+    width: 400px;
+    height: 70vh;
+    border: 2px solid transparent;
+    border-width: 8px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: rgb(216, 68, 14);
+    margin-left: 180px;
+    margin-top: 100px;
+    /* overflow-y: scroll; */
+    background-size: cover;
+    background-position: top;
+    transition: 10s;
+
+    
+}
+
+.section6 .div2:hover{
+    background-position: bottom;
+}
+
+/* 1 */
+.section6 #bg1{
+    background-image: url(p1.png);
+}
+
+.section6 .div1 #a1{
+    background-image: url(p11.png);  
+}
+/* 1 */
+
+/* 2 */
+.section6 #bg2{
+    background-image: url(p2.png);
+}
+
+.section6 .div1 #a2{
+    background-image: url(p22.png);  
+}
+/* 2 */
+
+/* 3 */
+.section6 #bg3{
+    background-image: url(p3.png);
+}
+
+.section6 .div1 #a3{
+    background-image: url(p33.png);  
+}
+/* 3 */
+
+/* 4 */
+.section6 #bg4{
+    background-image: url(p4.png);
+}
+
+.section6 .div1 #a4{
+    background-image: url(p44.png);  
+}
+/* 4 */
+
+/* 5 */
+.section6 #bg5{
+    background-image: url(p5.png);
+}
+
+.section6 .div1 #a5{
+    background-image: url(p55.png);  
+}
+/* 5 */
+
+/* 6 */
+.section6 #bg6{
+    background-image: url(p6.png);
+}
+
+.section6 .div1 #a6{
+    background-image: url(p66.png);  
+}
+/* 6 */
+
+/* 6 */
+.section6 #bg7{
+    /* background-image: url(p6.png); */
+    margin-bottom: 100px;
+    overflow-y: scroll;
+    padding: 15px;
+}
+
+.section6 #bg7 div{
+    border-radius: 20px;
+    height: 55vh;
+    width: 100%;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+/* Business Cards */
+.section6 #bg7 #a1{
+    background-image: url(01.jpg);
+}
+
+.section6 #bg7 #a2{
+    background-image: url(b1.jpg);
+}
+
+.section6 #bg7 #a3{
+    background-image: url(08.jpg);
+}
+
+.section6 #bg7 #a4{
+    background-image: url(10.jpg);
+}
+
+.section6 #bg7 #a5{
+    background-image: url(09.jpg);
+}
+
+.section6 #bg7 #a6{
+    background-image: url(11.jpg);
+}
+
+.section6 #bg7 #a7{
+    background-image: url(12.jpg);
+}
+
+.section6 #bg7 #a8{
+    background-image: url(13.jpg);
+}
+
+.section6 #bg7 #a9{
+    background-image: url(07.jpg);
+}
+
+.section6 #bg7 #a10{
+    background-image: url(02.jpg);
+}
+
+/* social Media covers  */
+.section6 #bg7 #b1{
+    background-image: url(a1.png);
+}
+
+.section6 #bg7 #b2{
+    background-image: url(a2.png);
+}
+
+.section6 #bg7 #b3{
+    background-image: url(a3.png);
+}
+
+.section6 #bg7 #b4{
+    background-image: url(a4.png);
+}
+
+.section6 #bg7 #b5{
+    background-size: contain;
+    background-image: url(a5.jpg);
+}
+
+.section6 #bg7 #b6{
+    background-size: contain;
+    background-image: url(a6.jpg);
+}
+
+.section6 #bg7 #b7{
+    background-size: contain;
+    background-image: url(a7.jpg);
+}
+
+.section6 #bg7 #b8{
+    background-size: contain;
+    background-image: url(a8.jpg);
+}
+
+.section6 #bg7 #b9{
+    background-size: contain;
+    background-image: url(a9.jpg);
+}
+
+.section6 #bg7 #b10{
+    background-size: contain;
+    background-image: url(a10.jpg);
+}
+
+/* 6 */
+
+/* section6 ends */
+
+
+
+
+/* ;;;;;;;;;;;;; right_sidebar ends;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+/* ;;;;;;;;;;;;; Scroll Bar starts;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(113, 113, 108);
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(216, 68, 14);
+    border-radius: 20px;
+}
+/* ;;;;;;;;;;;;; Scroll Bar starts;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+
+
